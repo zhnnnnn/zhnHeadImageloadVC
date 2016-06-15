@@ -15,6 +15,7 @@
 		CD8C71961D11021500C7AB5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8C71941D11021500C7AB5C /* LaunchScreen.storyboard */; };
 		CD8C71A11D11021600C7AB5C /* zhnHeadImageloadVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8C71A01D11021600C7AB5C /* zhnHeadImageloadVCTests.m */; };
 		CD8C71AC1D11021600C7AB5C /* zhnHeadImageloadVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8C71AB1D11021600C7AB5C /* zhnHeadImageloadVCUITests.m */; };
+		CD8C71BB1D11022100C7AB5C /* ZHNheadImageLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8C71BA1D11022100C7AB5C /* ZHNheadImageLoadViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CD8C71A71D11021600C7AB5C /* zhnHeadImageloadVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhnHeadImageloadVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8C71AB1D11021600C7AB5C /* zhnHeadImageloadVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zhnHeadImageloadVCUITests.m; sourceTree = "<group>"; };
 		CD8C71AD1D11021600C7AB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8C71B91D11022100C7AB5C /* ZHNheadImageLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNheadImageLoadViewController.h; sourceTree = "<group>"; };
+		CD8C71BA1D11022100C7AB5C /* ZHNheadImageLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNheadImageLoadViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CD8C718A1D11021500C7AB5C /* AppDelegate.m */,
 				CD8C718C1D11021500C7AB5C /* ViewController.h */,
 				CD8C718D1D11021500C7AB5C /* ViewController.m */,
+				CD8C71B91D11022100C7AB5C /* ZHNheadImageLoadViewController.h */,
+				CD8C71BA1D11022100C7AB5C /* ZHNheadImageLoadViewController.m */,
 				CD8C718F1D11021500C7AB5C /* Main.storyboard */,
 				CD8C71921D11021500C7AB5C /* Assets.xcassets */,
 				CD8C71941D11021500C7AB5C /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				CD8C718E1D11021500C7AB5C /* ViewController.m in Sources */,
 				CD8C718B1D11021500C7AB5C /* AppDelegate.m in Sources */,
+				CD8C71BB1D11022100C7AB5C /* ZHNheadImageLoadViewController.m in Sources */,
 				CD8C71881D11021500C7AB5C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
